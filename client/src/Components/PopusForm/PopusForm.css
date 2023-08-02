@@ -1,0 +1,39 @@
+.popupform-main-container{
+   margin: 0;
+    display: flex;
+}
+
+.add-product-form-container{
+    width: 500px;
+    margin: 0;
+    padding: 80px;
+}
+
+.product-input-container{
+    display: flex;
+    margin-top: 40px;
+}
+
+.add-product-form-header{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.product-input-container input,.singup-input-container input  {
+    border-style: none;
+    outline: none;
+    border-bottom: 1px solid #1c1c1c;
+    width: 100%;
+    font-size: 18px;
+}
+
+.product-btn{
+    margin-top: 40px;
+}
+
+@media (max-width: 1043px){
+.Popup-FeedbackCard{
+    display: none;
+}
+
+}
